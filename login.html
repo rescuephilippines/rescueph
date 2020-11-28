@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+</head>
+<style>
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  cursor: pointer;
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  float: right;
+  margin-right: 30px;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 1px 15px;
+  cursor: pointer;
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.button2:active {
+  background-color: #ADE9F4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button:hover {background-color:#ADE9F4}
+
+.button:active {
+  background-color: #ADE9F4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type=text] {
+  width: 120%;
+  padding: 15px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background: url(login.png);
+  height: 500px;  
+  background-size: cover; 
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ th, td {
+    font-size: 25px;
+  }
+
+p.login{
+  margin-left: 25px;
+}
+
+.container {
+  padding: 10px;
+  position: absolute;
+  left: 140px;
+  width: 300px;
+  height: 400px;
+  font-size: 25px;
+
+}
+
+
+</style>
+</head>
+<body>
+<table width=100%>
+<td width=80% align=left><table><td><a href="index.html"><img src="logo.png" style="width:75%"></a></td></table>
+<td width=20% align=right><table><td><a href="index.html"><button class="button">Home</button></td></table>
+</table>
+<div style="padding-left:16px">
+    <div class="container">
+ 
+      <label for="uname"><b><font color="white">Username: </b></label></font><br>
+      <input type="text" placeholder="example@name.com " name="uname" required><br><br>
+  <label for="uname"><b><font color="white">Password: </b></label></font><br>
+      <input type="text" placeholder="********" name="uname" required><br><br>
+      <a href="volunteerlogin.html"><button class= "button2">Volunteer</button></a>
+      <a href="rescuerlogin.html"><button class= "button2">Rescuer</button></a>
+      </label>
+    </div>
+
+</div>
+</body>
+</html>
