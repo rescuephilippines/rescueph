@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+</head>
+<style>
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  cursor: pointer;
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  float: right;
+  margin-right: 30px;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 1px 15px;
+  cursor: pointer;
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 37px;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.button2:active {
+  background-color: #ADE9F4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button:hover {background-color:#ADE9F4}
+
+.button:active {
+  background-color: #ADE9F4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type=text] {
+  width: 120%;
+  padding: 8px 8px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background: url(signup.png);
+  height: 500px;  
+  background-size: cover; 
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ th, td {
+    font-size: 25px;
+  }
+
+p.login{
+  margin-left: 25px;
+}
+
+.container {
+  padding: 5px;
+  position: absolute;
+  left: 380px;
+  width: 370px;
+  height: 450px;
+  font-size: 12px;
+
+}
+
+.containerleft {
+  padding: 150px;
+  position: absolute;
+  left: 235px;
+  width: 179px;
+  height: 1px;
+  font-size: 12px;
+
+}
+
+.containerright{
+  padding: 150px;
+  position: absolute;
+  left: 465px;
+  width: 179px;
+  height: 1px;
+  font-size: 12px;
+
+}
+
+
+</style>
+</head>
+<body>
+<table width=100%>
+<td width=80% align=left><table><td><a href="index.html"><img src="logo.png" style="width:75%"></a></td></table>
+ <td width=20% align=right><table><td><a href="index.html"><button class="button">Home</button></a></td></table>
+</table>
+<div style="padding-left:16px">
+    <div class="container">
+ 
+      <label for="name"><b><font color="white">Name:</b></label></font><br>
+      <input type="text" placeholder="Surname, First Name M.I. " name="name" required><br><br>
+
+  <label for="address"><b><font color="white">Address:</b></label></font><br>
+      <input type="text" placeholder="House Number, Street, City, Province, Zip Code" name="address" required><br><br>
+ 
+</div>
+<div class="containerleft">
+ <label for="birthday"><b><font color="white">Birthday:</b></label></font><br>
+      <input type="text" placeholder="MM - DD - YY " name="birthday" required> <br><br>
+ <label for="email"><b><font color="white">Email:</b></label></font><br>
+      <input type="text" placeholder="example@name.com" name="email" required><br><br>
+ <label for="pw"><b><font color="white">Password:</b></label></font><br>
+      <input type="text" placeholder="Alphanumeric minimum of 6 characters" name="pw" required>
+</div>
+
+<div class="containerright">
+ <label for="contact"><b><font color="white">Contact Number:</b></label></font><br>
+      <input type="text" placeholder="Enter (area code) + contact number " name="contact" required>
+<br><br>
+ <label for="uname"><b><font color="white">Username</b></label></font><br>
+      <input type="text" placeholder="6 characters minimum" name="uname" required><br><br>
+ <label for="role"><b><font color="white">Role:</b></label></font><br>
+      <input type="text" placeholder="Volunteer or Rescuer" name="role" required>
+</div>
+
+<div class="container">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <a href="signedup.html"><button class= "button2">Sign up</button></a>
+      </label>
+    </div>
+
+</div>
+</body>
+</html>
