@@ -2,41 +2,71 @@
 <html>
 <head>
 <style>
-#example1 {
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  float: right;
+  margin: 20px 5px;
+  margin-right: 20px;
+}
+
+.button:hover {background-color:#ADE9F4}
+
+.button:active {
+  background-color: #ADE9F4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body {
   background: url(home.png);
   height: 750px;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover; 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-#example2 {
-  background: url(home.png);
-  background-repeat: no-repeat;
+.tab { 
+            display: inline-block; 
+            margin-right: 50px; 
+} 
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#example3 {
-  background: url(home.png);
-  background-repeat: no-repeat;
+p.res {
+  margin-top: 420px;
 }
+
 </style>
 </head>
 <body>
-
-<div id="example1">
-
-</div>
-
-<div id="example2">
-  <h2>Lorem Ipsum Dolor</h2>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<div id="example3">
-  <h2>Lorem Ipsum Dolor</h2>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-</div>
-
+<table width=50% align=right>
+<td>
+<button class="button">Log in</button>
+<button class="button">Sign up</button>
+</td>
+</table>
+<table width=100% align=center>
+<td>
+<p class ="res"><img src="RescuePH.png" alt="Paris" style="width:50%"></div>
+</td>
+</table>
 </body>
 </html>
